@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://biddings-zzg2.vercel.app/',
+    origin: 'https://biddings-zzg2.vercel.app',
     methods: ['GET', 'POST'],
   },
 });
