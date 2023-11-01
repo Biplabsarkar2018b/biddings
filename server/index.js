@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173', // Replace with the origin of your frontend app
+    origin: 'https://biddings-zzg2.vercel.app', // Replace with the origin of your frontend app
     methods: ['GET', 'POST'],
   },
 });
