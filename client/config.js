@@ -1,1 +1,1 @@
-export const BASE_URL="https://biddings-khaki.vercel.app/";
+export const BASE_URL="https://biddings-khaki.vercel.app";
